@@ -1,0 +1,207 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+  box-shadow: 0px 1px 20px #6B6B6B;
+}
+nav h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+  color: #FFA9AB;
+  text-decoration: none;
+}
+nav ul {
+  margin-right: 20px;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(assets/hero.jpg);
+  background-size: cover;
+  background-position: 0% center;
+}
+header h1 {
+  color: #FFFFFF;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 70px;
+  line-height: 95px;
+}
+header a:link {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:visited {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:hover {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #550E57;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #F4F4F4;
+  text-decoration: none;
+}
+article {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+article h2 {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+.course {
+  background-image: url(assets/programBG.jpg);
+}
+.container1 {
+  display: flex;
+  width: 70%;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container1 .left {
+  flex: 1;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+.container1 .right {
+  flex: 1;
+  background-image: url(assets/program.jpg);
+  border-radius: 20px;
+  background-position: center center;
+  margin-left: 10px;
+}
+article p {
+  text-align: center;
+  font-size: 18px;
+}
+.container2 {
+  display: flex;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+  margin-top: 20px;
+}
+.container2 .col01 {
+  flex: 1;
+  background-image: url(assets/course01.jpg);
+  background-size: cover;
+  margin: 5px;
+  border-radius: 10px;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+}
+.container2 .col02 {
+  flex: 1;
+  background-image: url(assets/course02.jpg);
+  background-size: cover;
+  margin: 5px;
+  border-radius: 10px;
+  background-position: center center;
+  align-items: flex-end;
+  display: flex;
+}
+.container2 .col03 {
+  flex: 1;
+  background-image: url(assets/course03.jpg);
+  background-position: center center;
+  margin: 5px;
+  border-radius: 10px;
+  background-size: cover;
+  align-items: flex-end;
+  display: flex;
+}
+.container2 .colT {
+  background-color: #292929;
+  opacity: 0.8;
+  color: #FFFFFF;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.img {
+  margin: 5px;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #454545;
+  text-align: center;
+  font-size: 14px;
+  line-height: 60px;
+  color: #E6E6E6;
+}
+
